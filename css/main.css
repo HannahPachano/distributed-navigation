@@ -7,8 +7,9 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-body {
 
+body {
+  margin: auto;
 }
 
 header {
@@ -21,17 +22,18 @@ header {
 header img {
   width: 2rem;
 }
- header h1 {
 
+header h1 {
+  margin-left: .5rem;
 }
 
 header p {
-
+ padding: inherit;
 }
 
 nav {
- background-color: #e2e2e2;
- padding: 1em;
+  background-color: #e2e2e2;
+  padding: 1em;
 }
 
 nav ul {
@@ -42,15 +44,17 @@ nav ul {
   justify-content: space-around;
   color: #0074d9;
 }
- nav li {
-   margin: .5rem;
- }
+
+nav li {
+  margin: .5rem;
+}
 
 nav a {
-   color:#0074d9;
-   text-decoration: none;
+  color: #0074d9;
+  text-decoration: none;
 }
 
 nav a:hover {
   text-decoration: underline;
+  color: #b42885;
 }
