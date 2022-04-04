@@ -1,17 +1,21 @@
 html {
   box-sizing: border-box;
   font-family: sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+body {
+
+}
 
 header {
+  display: flex;
   background-color: #e2e2e2;
-  display:flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 }
 
 header img {
@@ -19,5 +23,24 @@ header img {
 }
  header h1 {
 
+}
 
+header p {
+
+}
+
+nav {
+ background-color: #e2e2e2
+ padding: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+ nav li {
+   margin: .5rem;
  }
