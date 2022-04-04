@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #e2e2e2;
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+header img {
+  width: 2rem;
+}
+ header h1 {
+
+
+ }
