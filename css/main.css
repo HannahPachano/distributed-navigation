@@ -8,11 +8,6 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 10px;
-  margin: auto;
-}
-
 header {
   display: flex;
   background-color: #e2e2e2;
