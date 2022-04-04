@@ -9,6 +9,7 @@ html {
 }
 
 body {
+  margin: .5rem;
   margin: auto;
 }
 
@@ -28,7 +29,7 @@ header h1 {
 }
 
 header p {
- padding: inherit;
+  padding: inherit;
 }
 
 nav {
